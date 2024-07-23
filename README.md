@@ -6,6 +6,7 @@ Certainly! Here's a README file for your SQL table operations on GitHub:
 # Employee Management SQL Operations
 
 This repository contains SQL scripts for managing an `employees` table. The table includes columns for name, role, salary, age, and phone number. Below are the details of the table structure and various SQL operations performed.
+```
 
 ## Table Structure
 
