@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="E:/flutter projects/database/employee.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1132"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,9:mainemployees"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="54"/><column index="3" value="40"/><column index="4" value="49"/><column index="5" value="40"/><column index="6" value="77"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">-- INSERT INTO employees (name, role, salary, age, phone) VALUES (&quot;Akshar&quot;, &quot;ceo&quot;, 100000, 19, 9727404868);
+-- INSERT INTO employees (name, role, salary, age, phone) VALUES (&quot;Ayush&quot;, &quot;hr&quot;, 80000, 20, 8654312546);
+-- INSERT INTO employees (name, role, salary, age, phone) VALUES (&quot;Meet&quot;, &quot;manager&quot;, 75000, 20, 7986542102);
+-- INSERT INTO employees (name, role, salary, age, phone) VALUES (&quot;Ashupal&quot;, &quot;emp&quot;, 80000, 18, 8541325322);
+-- INSERT INTO employees (name, role, salary, age, phone) VALUES (&quot;Fenish&quot;, &quot;emp&quot;, 95000, 19, 6854138658);
+-- INSERT INTO employees (name, role, salary, age, phone) VALUES (&quot;Darshan&quot;, &quot;emp&quot;, 60000, 18, 8979658888);
+
+-- SELECT * FROM employees;
+-- SELECT name FROM employees;
+-- SELECT salary FROM employees;
+-- SELECT * FROM employees WHERE role = &quot;manager&quot;;
+-- SELECT * FROM employees WHERE name LIKE 'A%';
+-- SELECT * FROM employees WHERE (age &gt; 18 AND salary &gt; 85000);
+
+-- UPDATE employees SET salary = 50000 WHERE id = 22;
+-- UPDATE employees SET phone = 6520241545 WHERE id = 24;
+
+-- DELETE FROM employees WHERE id = 25;
+-- DELETE FROM employees WHERE age &gt; 19;</sql><current_tab id="0"/></tab_sql></sqlb_project>
